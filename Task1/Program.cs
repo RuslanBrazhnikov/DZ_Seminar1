@@ -14,7 +14,12 @@ if (num1 > num2)
 {
     Console.WriteLine($"Большее число - {num1}, а меньшее {num2}");
 }
+else if (num1 == num2)
+{
+    Console.WriteLine($"Введеные числа равны!");
+}
 else
 {
     Console.WriteLine($"Большее число - {num2}, а меньшее {num1}");
 }
+ 
