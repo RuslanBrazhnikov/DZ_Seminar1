@@ -12,9 +12,13 @@ Console.WriteLine("Введите третье число: ");
 int num3 = int.Parse(Console.ReadLine());
 int max = num1;
 
-if (num2 > max)
+if (num2 > num3 && num2 > max)
 {
     Console.WriteLine($"Максимальное число - {num2}");
+}
+else if (num3 == max && max == num2)
+{
+    Console.WriteLine($"Они равны");
 }
 else if (num3 > max)
 {
