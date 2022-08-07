@@ -14,8 +14,5 @@ int m = 1;
             {
                 Console.Write(i + " "); 
             }
-            if(i >= n)
-            {
-                break;
-            }
+            
     }
